@@ -1,0 +1,130 @@
+/* --------------- Basic Styling --------------- */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    margin: 0.25rem 0;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.question-container {
+    margin: 1.5rem 0;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 6px #9d9d9d;
+}
+
+.question-text {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.options {
+    margin-bottom: 0.75rem;
+}
+
+#submit-btn {
+    background: #28a745;
+    color: #fff;
+    border: solid 2px #28a745;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+}
+
+#submit-btn:hover {
+    background: transparent;
+    color: #28a745;
+    border: solid 2px #28a745;
+}
+
+#reset-btn {
+    background: #dc3545;
+    color: #fff;
+    border: solid 2px #dc3545;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+}
+
+#reset-btn:hover {
+    background: transparent;
+    color: #dc3545;
+    border: solid 2px #dc3545;
+}
+
+#result-container {
+    margin: 1.5rem 0;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    background: #e9ecef;
+    display: none; /* hidden until after submission */
+}
+
+#result-container p {
+    margin: 0;
+}
+
+.main-container {
+    background-color: #ececec;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container a {
+    background-color: #6BBAEC;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.75rem 1.75rem;
+    border: solid 2px #6BBAEC;
+    border-radius: 0.5rem;
+}
+
+.link-container a:hover {
+    background-color: transparent;
+    color: #6BBAEC;
+    border: solid 2px #6BBAEC;
+}
+
+.questionnaire-container {
+    margin: 1rem;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6BBAEC;
+    border-radius: 2rem;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #529bc8;
+}
+/* SCROLLBAR */
